@@ -101,7 +101,7 @@ class FileUtils:
             relative_path = "{}/{}".format(directory, file)
             file_details.append({
                 "url": "https://cdn.jsdelivr.net/gh/Zander-Hwang/picture/file/{}".format(relative_path),
-                "path": fr"/picture/{relative_path}",
+                "path": fr"/file/{relative_path}",
                 "title": filename,
                 "title_en": filename,
                 "copyright": "",
