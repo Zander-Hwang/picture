@@ -1,4 +1,4 @@
-<h3><center>Liberty Wallpaper</center></h3>
+<h3><center>Liberty View</center></h3>
 
 <table class="sn_2024-10" width="100%">
 	<tr>

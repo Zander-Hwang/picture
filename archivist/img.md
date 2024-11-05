@@ -1,4 +1,4 @@
-<h3><center>Icon File</center></h3>
+<h3><center>Icon View</center></h3>
 
 <table class="sn_2024-10" width="100%">
 	<tr>
