@@ -32,6 +32,10 @@ class DateUtils:
         return time.strftime(format_str, date)
 
     @staticmethod
+    def strptime(date, format_str='%Y-%m-%d %H:%M:%S'):
+        return time.strptime(date, format_str)
+
+    @staticmethod
     def getDate():
         return DateUtils.localtime().tm_mday
 
