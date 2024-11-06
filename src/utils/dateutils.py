@@ -32,8 +32,11 @@ class DateUtils:
         return time.strftime(format_str, date)
 
     @staticmethod
-    def strptime(date, format_str='%Y-%m-%d %H:%M:%S'):
-        return time.strptime(date, format_str)
+    def strptime(date, format_str='%Y-%m-%d %H:%M:%S', format_tuple=None):
+        tuple_date = time.strptime(date, format_str)
+        if format_tuple is None:
+            return tuple_date
+        return time.strftime(format_tuple, tuple_date)
 
     @staticmethod
     def getDate():
