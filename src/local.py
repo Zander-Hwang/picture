@@ -23,7 +23,6 @@ class LocalGit:
         cmd = 'git log --name-status --after="yesterday" file'
         result = subprocess.run(cmd.split(), capture_output=True, text=True)
         output = result.stdout
-        print(subprocess.run(['git', 'status'], capture_output=True, text=True).stdout)
         print(output)
         # output = output.split('commit ')
         # output.pop(0)
