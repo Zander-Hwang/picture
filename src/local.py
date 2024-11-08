@@ -24,6 +24,7 @@ class LocalGit:
         process = subprocess.Popen(cmd, stdout=subprocess.PIPE)
         output, _ = process.communicate()
         output = output.decode('utf-8')
+        print(output)
         output = output.split('commit ')
         output.pop(0)
         change_map = {
