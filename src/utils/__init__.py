@@ -13,3 +13,4 @@ from .fetchutils import FetchUtils
 from .useragent import UserAgent
 from .agentpool import AgentPool
 from .threadutils import ThreadUtils
+from .database import DataBase
