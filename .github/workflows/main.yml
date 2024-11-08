@@ -2,7 +2,7 @@ name: Picture Warehouse CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 #  schedule:
 #    - cron:  '2 7 * * *'
 #    # 每天中国时间0点2分 (UTC时间前一天16点2分)
