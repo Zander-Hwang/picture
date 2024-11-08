@@ -33,7 +33,7 @@ class OperateJson:
 
     @staticmethod
     def set_changed(data, file_type):
-        print(file_type)
+        # print(file_type)
         append_map = {}
         delete_list = {}
         for i in data:
@@ -50,5 +50,5 @@ class OperateJson:
                     delete_list[date].append(i)
                 else:
                     delete_list[date] = [i]
-        print(append_map)
-        print(delete_list)
+        # print(append_map)
+        # print(delete_list)

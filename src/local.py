@@ -20,11 +20,10 @@ class LocalGit:
 
     @staticmethod
     def get_git_local_changes():
-        # cmd = ['git', 'log', '--name-status', '--after="yesterday"', 'file']
-        cmd = ['git', 'log', '--pretty=format:"%h - %ar : %s"']
-        process = subprocess.Popen(cmd, stdout=subprocess.PIPE)
-        output, _ = process.communicate()
-        output = output.decode('utf-8')
+        cmd = 'git log --name-status --after="yesterday" file'
+        result = subprocess.run(cmd.split(), capture_output=True, text=True)
+        output = result.stdout
+        # output = output.decode('utf-8')
         print(output)
         # output = output.split('commit ')
         # output.pop(0)
