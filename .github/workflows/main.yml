@@ -1,14 +1,12 @@
 name: Picture Warehouse CI
 
 on:
-  push:
-    branches: [ master ]
-#  schedule:
-#    - cron:  '2 7 * * *'
-#    # 每天中国时间0点2分 (UTC时间前一天16点2分)
-#    - cron:  '2 16 * * *'
-#    # 每天UTC时间0点2分
-#    - cron:  '2 0 * * *'
+  workflow_dispatch:
+#  push:
+#    branches: [ master ]
+  schedule:
+    # 北京时间23点对应UTC时间15点
+    - cron:  '0 15 * * *'
 
 jobs:
   run_python_script_actions:

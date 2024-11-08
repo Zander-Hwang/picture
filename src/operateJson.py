@@ -50,5 +50,5 @@ class OperateJson:
                     delete_list[date].append(i)
                 else:
                     delete_list[date] = [i]
-        # print(append_map)
-        # print(delete_list)
+        print(append_map)
+        print(delete_list)
