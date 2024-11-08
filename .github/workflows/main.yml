@@ -1,0 +1,53 @@
+name: Picture Warehouse CI
+
+on:
+  push:
+    branches: [ main ]
+#  schedule:
+#    - cron:  '2 7 * * *'
+#    # 每天中国时间0点2分 (UTC时间前一天16点2分)
+#    - cron:  '2 16 * * *'
+#    # 每天UTC时间0点2分
+#    - cron:  '2 0 * * *'
+
+jobs:
+  run_python_script_actions:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Install requirements.txt
+        run: |
+          pip install -r ./requirements.txt
+
+      - name: current date
+        run: date
+
+      - name: Run main.py
+        run: python main.py
+
+#      - name: Commit Change files
+#        run: |
+#           git config --local user.email "niumoo@126.com"
+#           git config --local user.name "niumoo"
+#           git pull
+#           git add README.md
+#           git add bing-wallpaper.md
+#           git add picture/*
+#           git add docs/*
+#           git add zh-cn/*
+#           git commit -m "update readme.md"
+#
+#      - name: Push changes
+#        uses:  ad-m/github-push-action@master
+#        with:
+#           github_token: ${{ secrets.MY_GIT_TOKEN }}
+#           branch: main
