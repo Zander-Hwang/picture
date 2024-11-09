@@ -16,6 +16,8 @@ class DataBase:
         # @description 初始化 SQLite 数据库连接和游标
         # @param {dbpath} 数据库文件路径
         self.conn = sqlite3.connect(dbpath)
+        # 通过索引获取值
+        self.conn.row_factory = sqlite3.Row
         # 创建游标对象
         self.cursor = self.conn.cursor()
 
