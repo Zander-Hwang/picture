@@ -34,20 +34,16 @@ jobs:
       - name: Run main.py
         run: python main.py
 
-#      - name: Commit Change files
-#        run: |
-#           git config --local user.email "niumoo@126.com"
-#           git config --local user.name "niumoo"
-#           git pull
-#           git add README.md
-#           git add bing-wallpaper.md
-#           git add picture/*
-#           git add docs/*
-#           git add zh-cn/*
-#           git commit -m "update readme.md"
-#
-#      - name: Push changes
-#        uses:  ad-m/github-push-action@master
-#        with:
-#           github_token: ${{ secrets.MY_GIT_TOKEN }}
-#           branch: main
+      - name: Commit Change files
+        run: |
+           git config --local user.email "huangzhendong1996@163.com"
+           git config --local user.name "Zander"
+           git pull
+           git add .
+           git commit -m "Picture Warehouse CI Update"
+
+      - name: Push changes
+        uses:  ad-m/github-push-action@master
+        with:
+           github_token: ${{ secrets.REPOSITORY_ACTIONS_TOKEN }}
+           branch: master
