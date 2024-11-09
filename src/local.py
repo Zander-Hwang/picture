@@ -11,7 +11,7 @@ import re
 import os
 import subprocess
 from src.utils import DateUtils
-from src.operateJson import OperateJson
+from src.archivist import ArchivistUtil
 
 
 class LocalGit:
@@ -20,51 +20,47 @@ class LocalGit:
 
     @staticmethod
     def get_git_local_changes():
-        cmd = 'git log --name-status --after="yesterday" file'
+        cmd = 'git log --name-status --reverse --after="yesterday" file'
         result = subprocess.run(cmd.split(), capture_output=True, text=True)
         output = result.stdout
         output = output.split('commit ')
         output.pop(0)
-        change_map = {
-            'img': [
-                {
-                    'type': 'D',
-                    'url': 'https://cdn.jsdelivr.net/gh/Zander-Hwang/picture/file/img/2024/001431sFPe6.jpg',
-                    'path': '/file/img/2024/001431sFPe6.jpg',
-                    'path_en': '/file/img/2024/001431sFPe6.jpg',
-                    'date': '2024-11-06',
-                    'title': '001431sFPe6',
-                    'title_en': '001431sFPe6',
-                    'copyright': '',
-                    'copyright_en': ''
-                }
-            ],
-            'liberty': []
-        }
+        change_list = []
         for s in output:
+            add_reg = r'^(A)\t(.*?)\s*$'
+            del_reg = r'^(D)\t(.*?)\s*$'
+            up_reg = r'^(R100)\t(.*?)\s*$'
+            add_file = re.findall(add_reg, s, re.M)
+            del_file = re.findall(del_reg, s, re.M)
+            up_file = re.findall(up_reg, s, re.M)
             date = re.search(r'^Date\b.*$', s, re.M).group().replace('Date:   ', '')
             date = DateUtils.strptime(date, '%a %b %d %H:%M:%S %Y +0800', '%Y-%m-%d')
-            file = re.findall(r'^(A|D)\t(.*?)\s*$', s, re.M)
-            for i in file:
-                edit_type = i[0]
-                path = i[1]
-                filename = os.path.basename(path).split('.')[0]
+            if len(add_file) > 0:
+                change_list.extend((*t, date) for t in add_file)
+            if len(del_file) > 0:
+                change_list.extend((*t, date) for t in del_file)
+            if len(up_file) > 0:
+                change_list.extend((*t, date) for t in up_file)
+        for i in change_list:
+            edit_type = i[0]
+            path = i[1].split('\t')
+            date = i[2]
+            item = {
+                'type': edit_type,
+                'date': date
+            }
+            if len(path) > 1:
                 item = {
-                    'type': edit_type,
-                    'url': r'https://cdn.jsdelivr.net/gh/Zander-Hwang/picture/%s' % path,
-                    'path': r'/%s' % path,
-                    'path_en': r'/%s' % path,
-                    'date': date,
-                    'title': filename,
-                    'title_en': filename,
-                    'copyright': '',
-                    'copyright_en': ''
+                    'path': r'/%s' % path[0],
+                    'to_path': r'/%s' % path[1],
+                    'date': date
                 }
-                if path.find('file/img/') >= 0:
-                    change_map['img'].append(item)
-                else:
-                    change_map['liberty'].append(item)
-        for key in change_map:
-            value = change_map[key]
-            if len(value) > 0:
-                OperateJson.set_changed(value, key)
+            else:
+                filename = os.path.basename(path[0]).split('.')[0]
+                item = {
+                    'type': 'img' if path[0].find('file/img/') >= 0 > 10 else 'liberty',
+                    'path': r'/%s' % path[0],
+                    'date': date,
+                    'title': filename
+                }
+            ArchivistUtil.update_file_info(item, edit_type)
