@@ -39,3 +39,4 @@ class RemoteReq:
                 image_map['title'] = title
                 image_map['copyright'] = r'©%s' % copyright
         ArchivistUtil.update_file_info(image_map, 'A')
+        ArchivistUtil.update_readme_info(image_map, 'A')
