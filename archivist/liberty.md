@@ -5,7 +5,8 @@
         <td colspan="4" style="text-align:center">2024-11</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://cdn.jsdelivr.net/gh/Zander-Hwang/picture/file/wallpaper/204215JZpVZ.jpg" alt="204215JZpVZ"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://cdn.jsdelivr.net/gh/Zander-Hwang/picture/file/wallpaper/001431sFPe6.jpg" alt="001431sFPe6"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://cdn.jsdelivr.net/gh/Zander-Hwang/picture/file/wallpaper/204215JZpVZ.jpg" alt="204215JZpVZ"/></td>
     </tr>
 </table>
 
