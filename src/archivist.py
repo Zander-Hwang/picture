@@ -60,8 +60,8 @@ class ArchivistUtil:
             ArchivistUtil.add_readme(path, data)
         elif edit_type == 'D':
             ArchivistUtil.delete_readme(path, data)
-        # else:
-        #     ArchivistUtil.update_readme(path, to_path, data)
+        else:
+            ArchivistUtil.update_readme(path, to_path, data)
 
     @staticmethod
     def add_readme(path, data):
@@ -139,6 +139,13 @@ class ArchivistUtil:
 
     @staticmethod
     def update_readme(path, to_path, data):
-        print(path)
-        print(to_path)
-        print(data)
+        if path == to_path:
+            text = FileUtils.read(path)
+            text = text.replace(data['path'], data['to_path'])
+            FileUtils.write(path, text)
+        else:
+            db = DataBase('./database/picture.db')
+            row = db.execute_sql(r'SELECT * FROM picture_info WHERE path = "%s"' % data['to_path'])[0]
+            db.close()
+            ArchivistUtil.delete_readme(path, dict(row))
+            ArchivistUtil.add_readme(to_path, dict(row))

@@ -45,10 +45,6 @@ class LocalGit:
             edit_type = i[0]
             path = i[1].split('\t')
             date = i[2]
-            item = {
-                'type': edit_type,
-                'date': date
-            }
             if len(path) > 1:
                 item = {
                     'path': r'/%s' % path[0],
@@ -58,9 +54,10 @@ class LocalGit:
             else:
                 filename = os.path.basename(path[0]).split('.')[0]
                 item = {
-                    'type': 'img' if path[0].find('file/img/') >= 0 > 10 else 'liberty',
+                    'type': 'img' if path[0].find('file/img/') >= 0 else 'liberty',
                     'path': r'/%s' % path[0],
                     'date': date,
                     'title': filename
                 }
             ArchivistUtil.update_file_info(item, edit_type)
+            ArchivistUtil.update_readme_info(item, edit_type)
