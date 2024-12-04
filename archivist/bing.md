@@ -5,7 +5,8 @@
         <td colspan="4" style="text-align:center">2024-12</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.JaipurFort_ZH-CN3891828158_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="Sattais Katcheri，琥珀堡，拉贾斯坦邦，印度"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.RhinosKenya_ZH-CN4422118541_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="雄性白犀，纳库鲁湖，肯尼亚"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.JaipurFort_ZH-CN3891828158_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="Sattais Katcheri，琥珀堡，拉贾斯坦邦，印度"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.SnowMoose_ZH-CN3364979952_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="雌性驼鹿，德纳里国家公园，阿拉斯加州，美国"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.IcebergsAntarctica_ZH-CN2942178295_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="南极洲的冰山"/></td>
     </tr>
