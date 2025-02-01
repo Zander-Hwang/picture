@@ -1,5 +1,14 @@
 <h3><center>Bing View</center></h3>
 
+<table class="sn_2025-02" style="width:100%;">
+    <tr>
+        <td colspan="4" style="text-align:center">2025-02</td>
+    </tr>
+    <tr class="cont">
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.FestungKonigsteinElbsandsteingebirge_ZH-CN2192655745_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="国王岩堡垒 , 瑞士撒克逊, 德国"/></td>
+    </tr>
+</table>
+
 <table class="sn_2025-01" style="width:100%;">
     <tr>
         <td colspan="4" style="text-align:center">2025-01</td>
