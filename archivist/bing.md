@@ -1,5 +1,14 @@
 <h3><center>Bing View</center></h3>
 
+<table class="sn_2025-05" style="width:100%;">
+    <tr>
+        <td colspan="4" style="text-align:center">2025-05</td>
+    </tr>
+    <tr class="cont">
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.BrazilHeron_ZH-CN7200229300_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="维多利亚睡莲上的绿鹭，潘塔纳尔 ，巴西"/></td>
+    </tr>
+</table>
+
 <table class="sn_2025-04" style="width:100%;">
     <tr>
         <td colspan="4" style="text-align:center">2025-04</td>
