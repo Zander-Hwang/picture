@@ -1,5 +1,14 @@
 <h3><center>Bing View</center></h3>
 
+<table class="sn_2025-06" style="width:100%;">
+    <tr>
+        <td colspan="4" style="text-align:center">2025-06</td>
+    </tr>
+    <tr class="cont">
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.EchinaceaButterfly_ZH-CN7877489878_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="一只停在紫锥菊上的灰蝶，洛克菲勒州立公园，纽约"/></td>
+    </tr>
+</table>
+
 <table class="sn_2025-05" style="width:100%;">
     <tr>
         <td colspan="4" style="text-align:center">2025-05</td>
