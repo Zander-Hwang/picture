@@ -25,18 +25,25 @@ class RemoteReq:
             'date': DateUtils.formattime('%Y-%m-%d')
         }
         for i in regions:
-            image = FetchUtils.get(api.format(i)).json()['images'][0]
-            path = image['url'].replace('&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4', '')
-            title_copyright = image['copyright'].split(' (©')
-            title = title_copyright[0]
-            copyright = title_copyright[1].replace(')', '')
-            if i == 'en-US':
-                image_map['path_en'] = path
-                image_map['title_en'] = title
-                image_map['copyright_en'] = r'©%s' % copyright
-            else:
-                image_map['path'] = path
-                image_map['title'] = title
-                image_map['copyright'] = r'©%s' % copyright
+            json_data = FetchUtils.get(api.format(i))
+            try:
+                image = json_data.json()['images'][0]
+                path = image['url'].replace('&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4', '')
+                title_copyright = image['copyright'].split(' (©')
+                title = title_copyright[0]
+                copy_right = title_copyright[1].replace(')', '')
+                if i == 'en-US':
+                    image_map['path_en'] = path
+                    image_map['title_en'] = title
+                    image_map['copyright_en'] = r'©%s' % copy_right
+                else:
+                    image_map['path'] = path
+                    image_map['title'] = title
+                    image_map['copyright'] = r'©%s' % copy_right
+            except Exception as e:
+                with open(r"./log/request_error.log", 'a', encoding='utf-8') as f:
+                    f.write("返回数据错误 %s\n" % e)
+                f.close()
+                raise
         ArchivistUtil.update_file_info(image_map, 'A')
         ArchivistUtil.update_readme_info(image_map, 'A')
