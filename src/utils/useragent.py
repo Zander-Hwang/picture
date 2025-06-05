@@ -39,7 +39,7 @@ class UserAgent:
 
         except Exception as e:
             print("未知错误 %s\n" % e)
-            with open(r"./log/error.log", 'a', encoding='utf-8') as f:
+            with open(r"./log/request_error.log", 'a', encoding='utf-8') as f:
                 f.write("未知错误 %s\n" % e)
             f.close()
 

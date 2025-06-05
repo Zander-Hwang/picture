@@ -32,7 +32,7 @@ class FetchUtils:
             err_dic = {'url': url}
             err_dic.update(args)
             print("请求失败：%s\n" % err_dic)
-            with open(r"./log/error.log", 'a', encoding='utf-8') as f:
+            with open(r"./log/request_error.log", 'a', encoding='utf-8') as f:
                 f.write("请求失败：%s【%s】%s \n" % (e, err_dic, DateUtils.formattime()))
             f.close()
 
