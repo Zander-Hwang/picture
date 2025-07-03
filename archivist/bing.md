@@ -5,7 +5,8 @@
         <td colspan="4" style="text-align:center">2025-07</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.MaroonClownfish_ZH-CN5071934692_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="被泡尖海葵包围的刺颊海葵鱼，米尔恩湾，巴布亚新几内亚"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.RainbowRiver_ZH-CN5320095849_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="彩虹泉州立公园的彩虹河，佛罗里达州，美国"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.MaroonClownfish_ZH-CN5071934692_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="被泡尖海葵包围的刺颊海葵鱼，米尔恩湾，巴布亚新几内亚"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.CanadaDayFogo_ZH-CN2593963748_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="Tilting渔村, 福戈岛 , 纽芬兰和拉布拉多省, 加拿大"/></td>
     </tr>
 </table>
