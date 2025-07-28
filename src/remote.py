@@ -26,6 +26,7 @@ class RemoteReq:
         }
         for i in regions:
             json_data = FetchUtils.get(api.format(i))
+            print(json_data)
             try:
                 image = json_data.json()['images'][0]
                 path = image['url'].replace('&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4', '')
