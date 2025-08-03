@@ -5,7 +5,8 @@
         <td colspan="4" style="text-align:center">2025-08</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.EdinburghFringe_ZH-CN5243292664_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="皇家英里大道, 爱丁堡, 苏格兰"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.HappySunflower_ZH-CN5840993161_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="夏天田野里盛开的向日葵"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.EdinburghFringe_ZH-CN5243292664_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="皇家英里大道, 爱丁堡, 苏格兰"/></td>
     </tr>
 </table>
 
