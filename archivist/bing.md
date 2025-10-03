@@ -5,7 +5,8 @@
         <td colspan="4" style="text-align:center">2025-10</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.OxbowBend_ZH-CN7211791969_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="蛇河上的牛轭湖, 大提顿国家公园, 怀俄明州, 美国"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.SkyeHeather_ZH-CN2820283990_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="布里特尔峡谷里生长的帚石楠花, 斯凯岛, 苏格兰"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.OxbowBend_ZH-CN7211791969_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="蛇河上的牛轭湖, 大提顿国家公园, 怀俄明州, 美国"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.YosemiteClark_ZH-CN7179533292_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="克拉克山脉, 内华达山脉, 约塞米蒂国家公园, 加利福尼亚州, 美国"/></td>
     </tr>
 </table>
