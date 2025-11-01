@@ -1,5 +1,14 @@
 <h3><center>Bing View</center></h3>
 
+<table class="sn_2025-11" style="width:100%;">
+    <tr>
+        <td colspan="4" style="text-align:center">2025-11</td>
+    </tr>
+    <tr class="cont">
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.BisonSprings_ZH-CN4419733534_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="野牛在温泉边吃草,  黄石国家公园, 怀俄明州, 美国"/></td>
+    </tr>
+</table>
+
 <table class="sn_2025-10" style="width:100%;">
     <tr>
         <td colspan="4" style="text-align:center">2025-10</td>
