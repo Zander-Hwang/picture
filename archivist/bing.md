@@ -5,7 +5,8 @@
         <td colspan="4" style="text-align:center">2025-11</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.BisonSprings_ZH-CN4419733534_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="野牛在温泉边吃草,  黄石国家公园, 怀俄明州, 美国"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.KyotoMaple_ZH-CN4730358356_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="岚山缤纷的枫叶与竹林, 京都, 日本"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.BisonSprings_ZH-CN4419733534_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="野牛在温泉边吃草,  黄石国家公园, 怀俄明州, 美国"/></td>
     </tr>
 </table>
 
