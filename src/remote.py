@@ -45,6 +45,6 @@ class RemoteReq:
                 with open(r"./log/request_error.log", 'a', encoding='utf-8') as f:
                     f.write("返回数据错误 %s\n" % e)
                 f.close()
-                raise
+                # raise
         ArchivistUtil.update_file_info(image_map, 'A')
         ArchivistUtil.update_readme_info(image_map, 'A')
