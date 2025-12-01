@@ -1,5 +1,14 @@
 <h3><center>Bing View</center></h3>
 
+<table class="sn_2025-12" style="width:100%;">
+    <tr>
+        <td colspan="4" style="text-align:center">2025-12</td>
+    </tr>
+    <tr class="cont">
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.AntarcticArch_ZH-CN1622701432_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="冰山上天然形成的拱门, 南极洲"/></td>
+    </tr>
+</table>
+
 <table class="sn_2025-11" style="width:100%;">
     <tr>
         <td colspan="4" style="text-align:center">2025-11</td>
