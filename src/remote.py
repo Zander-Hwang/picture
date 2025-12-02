@@ -43,7 +43,7 @@ class RemoteReq:
                     image_map['copyright'] = r'©%s' % copy_right
             except Exception as e:
                 with open(r"./log/request_error.log", 'a', encoding='utf-8') as f:
-                    f.write("返回数据错误 %s\n" % e)
+                    f.write("请求失败：【%s】%s \n" % (e, json_data.text))
                 f.close()
                 # raise
         ArchivistUtil.update_file_info(image_map, 'A')
