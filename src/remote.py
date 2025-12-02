@@ -20,14 +20,17 @@ class RemoteReq:
     def get_bing_wallpaper():
         regions = ['zh-CN', 'en-US']
         api = 'https://global.bing.com/HPImageArchive.aspx?format=js&idx=0&n=9&pid=hp&FORM=BEHPTB&uhd=1&uhdwidth=3840&uhdheight=2160&setmkt={}&setlang=en'
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
+        }
         image_map = {
             'type': 'bing',
             'date': DateUtils.formattime('%Y-%m-%d')
         }
         for i in regions:
-            json_data = FetchUtils.get(api.format(i))
-            print(json_data)
+            json_data = FetchUtils.get(api.format(i), headers=headers)
             try:
+                print(json_data.json())
                 image = json_data.json()['images'][0]
                 path = image['url'].replace('&rf=LaDigue_UHD.jpg&pid=hp&w=3840&h=2160&rs=1&c=4', '')
                 title_copyright = image['copyright'].split(' (©')
@@ -43,7 +46,8 @@ class RemoteReq:
                     image_map['copyright'] = r'©%s' % copy_right
             except Exception as e:
                 with open(r"./log/request_error.log", 'a', encoding='utf-8') as f:
-                    f.write("请求失败：【%s】%s \n" % (e, json_data.text))
+                    print(json_data.text)
+                    f.write("请求失败：【%s】%s \n" % (e, json_data.request.headers))
                 f.close()
                 # raise
         ArchivistUtil.update_file_info(image_map, 'A')
