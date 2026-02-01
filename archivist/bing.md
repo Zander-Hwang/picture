@@ -1,5 +1,14 @@
 <h3><center>Bing View</center></h3>
 
+<table class="sn_2026-02" style="width:100%;">
+    <tr>
+        <td colspan="4" style="text-align:center">2026-02</td>
+    </tr>
+    <tr class="cont">
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.Olinda_ZH-CN6216385346_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="奥林达的彩色房子, 巴西"/></td>
+    </tr>
+</table>
+
 <table class="sn_2026-01" style="width:100%;">
     <tr>
         <td colspan="4" style="text-align:center">2026-01</td>
