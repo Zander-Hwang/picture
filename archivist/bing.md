@@ -5,7 +5,8 @@
         <td colspan="4" style="text-align:center">2026-02</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.Olinda_ZH-CN6216385346_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="奥林达的彩色房子, 巴西"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.AlpineMarmots_ZH-CN6323637910_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="阿尔卑斯山土拨鼠, 霍赫陶恩国家公园, 奥地利"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.Olinda_ZH-CN6216385346_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="奥林达的彩色房子, 巴西"/></td>
     </tr>
 </table>
 
