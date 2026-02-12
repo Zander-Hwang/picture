@@ -5,18 +5,19 @@
         <td colspan="4" style="text-align:center">2026-02</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.BadwaterFlats_ZH-CN4713617982_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="死亡谷国家公园恶水盆地的盐滩, 加利福尼亚州, 美国"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.DarwinBooby_ZH-CN4925779873_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="蓝脚鲣鸟，加拉帕戈斯群岛, 厄瓜多尔"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.BadwaterFlats_ZH-CN4713617982_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="死亡谷国家公园恶水盆地的盐滩, 加利福尼亚州, 美国"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.IbizaIslets_ZH-CN4580106286_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="埃斯韦德拉岛和埃斯韦德拉内尔岛，伊维萨岛，西班牙"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.LeopardCat_ZH-CN4431427444_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="阿穆尔豹猫，俄罗斯"/></td>
-		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.CorfuGreece_ZH-CN4305970968_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="科孚岛的夜晚, 希腊"/></td>
 	</tr>
 	<tr class="cont">
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.CorfuGreece_ZH-CN4305970968_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="科孚岛的夜晚, 希腊"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.SalarUyuni_ZH-CN4163237089_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="玻利维亚乌尤尼盐湖"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.GiauPass_ZH-CN3901214501_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="贾乌山口的拉古塞拉峰, 在科尔蒂纳丹佩佐附近, 意大利"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.MaltaSalt_ZH-CN7025158187_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="戈佐岛上的盐田, 马耳他"/></td>
-		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.BigGardenBirdwatch2026_ZH-CN6864628198_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="雪中​​的红鸢"/></td>
 	</tr>
 	<tr class="cont">
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.BigGardenBirdwatch2026_ZH-CN6864628198_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="雪中​​的红鸢"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.FanetteIsland_ZH-CN6466809551_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="翡翠湾和范内特岛, 太浩湖, 加利福尼亚州, 美国"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.AlpineMarmots_ZH-CN6323637910_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="阿尔卑斯山土拨鼠, 霍赫陶恩国家公园, 奥地利"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.Olinda_ZH-CN6216385346_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="奥林达的彩色房子, 巴西"/></td>
