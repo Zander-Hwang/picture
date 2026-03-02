@@ -5,7 +5,8 @@
         <td colspan="4" style="text-align:center">2026-03</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.BalearesDay_ZH-CN5024902433_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="伊维萨岛, 巴利阿里群岛, 西班牙"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.SamuiThailand_ZH-CN3323790951_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="苏梅岛的港口和长尾船, 泰国"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.BalearesDay_ZH-CN5024902433_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="伊维萨岛, 巴利阿里群岛, 西班牙"/></td>
     </tr>
 </table>
 
