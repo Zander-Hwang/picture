@@ -1,5 +1,14 @@
 <h3><center>Bing View</center></h3>
 
+<table class="sn_2026-06" style="width:100%;">
+    <tr>
+        <td colspan="4" style="text-align:center">2026-06</td>
+    </tr>
+    <tr class="cont">
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.Qinghai_ZH-CN9899656327_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="穿越西台吉乃尔湖的公路，青海省，中国"/></td>
+    </tr>
+</table>
+
 <table class="sn_2026-05" style="width:100%;">
     <tr>
         <td colspan="4" style="text-align:center">2026-05</td>
