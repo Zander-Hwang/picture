@@ -5,7 +5,8 @@
         <td colspan="4" style="text-align:center">2026-06</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.BardenasReales_ZH-CN0480548935_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="骑行者，巴德纳斯雷亚莱斯自然公园与生物圈保护区，纳瓦拉，西班牙"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.PreeningEgret_ZH-CN2216012708_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="梳理羽毛的雪鹭，佛罗里达州中部，美国"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.BardenasReales_ZH-CN0480548935_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="骑行者，巴德纳斯雷亚莱斯自然公园与生物圈保护区，纳瓦拉，西班牙"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.Qinghai_ZH-CN9899656327_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="穿越西台吉乃尔湖的公路，青海省，中国"/></td>
     </tr>
 </table>
