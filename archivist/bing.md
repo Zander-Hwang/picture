@@ -5,7 +5,8 @@
         <td colspan="4" style="text-align:center">2026-07</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.TempleEsna_ZH-CN9834689523_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="埃斯纳神庙穹顶天花板, 埃及"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.FirefliesJapan_ZH-CN0071253415_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="小溪上方的萤火虫，冈山县，日本"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.TempleEsna_ZH-CN9834689523_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="埃斯纳神庙穹顶天花板, 埃及"/></td>
     </tr>
 </table>
 
