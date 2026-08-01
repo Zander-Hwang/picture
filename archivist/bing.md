@@ -1,5 +1,14 @@
 <h3><center>Bing View</center></h3>
 
+<table class="sn_2026-08" style="width:100%;">
+    <tr>
+        <td colspan="4" style="text-align:center">2026-08</td>
+    </tr>
+    <tr class="cont">
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.HawaiiLava_ZH-CN3257621771_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="大批熔岩流涌入大洋，大岛，夏威夷州，美国"/></td>
+    </tr>
+</table>
+
 <table class="sn_2026-07" style="width:100%;">
     <tr>
         <td colspan="4" style="text-align:center">2026-07</td>
