@@ -5,7 +5,8 @@
         <td colspan="4" style="text-align:center">2026-08</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.HawaiiLava_ZH-CN3257621771_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="大批熔岩流涌入大洋，大岛，夏威夷州，美国"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.HelsinkiBlue_ZH-CN3961551568_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="马尔萨什洛克港口五彩斑斓的渔船，马耳他"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.HawaiiLava_ZH-CN3257621771_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="大批熔岩流涌入大洋，大岛，夏威夷州，美国"/></td>
     </tr>
 </table>
 
