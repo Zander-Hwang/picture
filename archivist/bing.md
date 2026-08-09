@@ -5,12 +5,13 @@
         <td colspan="4" style="text-align:center">2026-08</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.StocktonInfinity_ZH-CN5941379745_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="蒂斯河畔斯托克顿无限桥，英格兰"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.JMTjibaou_ZH-CN6992670356_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="让-马里·吉巴乌文化中心，新喀里多尼亚"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.StocktonInfinity_ZH-CN5941379745_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="蒂斯河畔斯托克顿无限桥，英格兰"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.LimeKiln_ZH-CN5664152522_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="圣胡安岛石灰窑灯塔，华盛顿州，美国"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.MaraCrossing_ZH-CN8816902094_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="马赛马拉迁徙的角马群横渡马拉河, 肯尼亚"/></td>
-		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.FezMorocco_ZH-CN7662339428_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="非斯皇宫装饰华丽的大门，摩洛哥"/></td>
 	</tr>
 	<tr class="cont">
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.FezMorocco_ZH-CN7662339428_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="非斯皇宫装饰华丽的大门，摩洛哥"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.AdorableOwlet_ZH-CN6929234033_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="佛罗里达穴鸮幼鸟，开普科拉尔，佛罗里达州，美国"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.HelsinkiBlue_ZH-CN3961551568_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="马尔萨什洛克港口五彩斑斓的渔船，马耳他"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.HawaiiLava_ZH-CN3257621771_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="大批熔岩流涌入大洋，大岛，夏威夷州，美国"/></td>
