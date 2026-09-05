@@ -5,9 +5,12 @@
         <td colspan="4" style="text-align:center">2026-09</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.GreenCrowned_ZH-CN0697075036_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="龙虾爪花上取食的绿顶辉蜂鸟，哥斯达黎加"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.LakeFyans_ZH-CN1067187791_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="菲安斯湖，格兰屏国家公园，维多利亚州，澳大利亚"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.GreenCrowned_ZH-CN0697075036_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="龙虾爪花上取食的绿顶辉蜂鸟，哥斯达黎加"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.Westerheversand_ZH-CN0517707643_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="韦斯特黑弗的韦斯特黑弗桑德灯塔，石勒苏益格-荷尔斯泰因州，德国"/></td>
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.AZWilderness_ZH-CN2664566131_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="郊狼丘，朱红悬崖国家纪念区，亚利桑那州，美国"/></td>
+	</tr>
+	<tr class="cont">
 		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.SuffolkHuts_ZH-CN2463818981_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="传统海滩小屋，索思沃尔德，萨福克遗产海岸，英格兰"/></td>
     </tr>
 </table>
