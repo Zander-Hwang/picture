@@ -1,5 +1,14 @@
 <h3><center>Bing View</center></h3>
 
+<table class="sn_2026-10" style="width:100%;">
+    <tr>
+        <td colspan="4" style="text-align:center">2026-10</td>
+    </tr>
+    <tr class="cont">
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.ChattoogaRiver_ZH-CN9453791496_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="查图加河，阿巴拉契亚山脉，北卡罗来纳州，美国"/></td>
+    </tr>
+</table>
+
 <table class="sn_2026-09" style="width:100%;">
     <tr>
         <td colspan="4" style="text-align:center">2026-09</td>
