@@ -2,11 +2,11 @@ name: Picture Warehouse CI
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ master ]
-#  schedule:
+#  push:
+#    branches: [ master ]
+  schedule:
     # 北京时间23点对应UTC时间15点
-#    - cron:  '0 15 * * *'
+    - cron:  '0 15 * * *'
 
 jobs:
   run_python_script_actions:
@@ -32,22 +32,19 @@ jobs:
       - name: current date
         run: date
 
-      - name: Test
-        run: echo "输出测试"
+      - name: Run main.py
+        run: python main.py
 
-#      - name: Run main.py
-#        run: python main.py
-#
-#      - name: Commit Change files
-#        run: |
-#           git config --local user.email "huangzhendong1996@163.com"
-#           git config --local user.name "Zander"
-#           git pull
-#           git add .
-#           git commit -m "Picture Warehouse CI Update"
-#
-#      - name: Push changes
-#        uses:  ad-m/github-push-action@master
-#        with:
-#           github_token: ${{ secrets.REPOSITORY_ACTIONS_TOKEN }}
-#           branch: master
+      - name: Commit Change files
+        run: |
+           git config --local user.email "huangzhendong1996@163.com"
+           git config --local user.name "Zander"
+           git pull
+           git add .
+           git commit -m "Picture Warehouse CI Update"
+
+      - name: Push changes
+        uses:  ad-m/github-push-action@master
+        with:
+           github_token: ${{ secrets.REPOSITORY_ACTIONS_TOKEN }}
+           branch: master
