@@ -5,7 +5,8 @@
         <td colspan="4" style="text-align:center">2026-11</td>
     </tr>
     <tr class="cont">
-        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.HudsonBear_ZH-CN6630706907_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="北极熊和幼崽，哈得孙湾畔，马尼托巴省，加拿大"/></td>
+        <td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.AlpineBraies_ZH-CN7307997866_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="布莱埃斯湖，法内斯-塞内斯-布莱埃斯湖自然公园，多洛米蒂山脉，意大利"/></td>
+		<td class="cont" style="padding:2px;font-size:0;text-align:center"><img src="https://bing.com/th?id=OHR.HudsonBear_ZH-CN6630706907_UHD.jpg&pid=hp&w=160&h=90&rs=1&c=4" alt="北极熊和幼崽，哈得孙湾畔，马尼托巴省，加拿大"/></td>
     </tr>
 </table>
 
